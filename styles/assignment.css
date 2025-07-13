@@ -64,3 +64,24 @@ ul{
 li{
     list-style: none;
 }
+
+/* banner styles */
+
+.banner{
+    margin-top: 158px;
+}
+
+.banner-content{
+    text-align: center;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0;
+    
+}
+.btn-secondary{
+    margin-top: 37px;
+    margin-bottom: 152px;
+}
+
