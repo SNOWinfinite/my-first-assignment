@@ -199,26 +199,32 @@ li{
 
   /* focus styles */
 
-.focus{
+  .focus{
+    padding: 71px 150px;
+    margin: 137px 100px 0px 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+  }
+
+  .focus-container{
     text-align: center;
-     margin: 137px 149px 0px 151px;
-     padding: 71px 150px 71px 150px;
-     background-color: rgba(255, 255, 255, 1);
-}
-.focus-title{
+  }
+
+  .focus-title{
     font-size: 50px;
+    font-weight: bold;
     margin-bottom: 0px;
-}
-.focus-description{
-    color: rgba(0, 0, 0, 0.5);
-     
-}
-.focus-pic{
-    width: 840px;
-    height: 365px;
+  }
+
+   
+
+  .focus-pic{
+    width: 700px;
     border-radius: 48px;
     margin-top: 20px;
-}
+  }
+ 
+ 
 
 /* get in touch and form styles */
 
@@ -234,7 +240,7 @@ li{
     width: 528px;
     height: 232px;
     font-weight: bold;
-    font-size: 97px;
+    font-size: 70px;
 }
 .form{
     width: 497px;
@@ -286,7 +292,7 @@ textarea{
 /* footer styles */
 footer{
     background-color: rgba(255, 255, 255, 1);
-    padding: 104px 455px;
+    padding: 104px 250px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 71px;
  }
@@ -307,4 +313,6 @@ footer{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
  }
- 
+ .footer-nav{
+    text-align: center;
+ }
